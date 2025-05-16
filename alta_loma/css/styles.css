@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/static/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regular Playfair';
+    src: url('/fonts/static/PlayfairDisplay-Regular.ttf');
+}
+
+@media screen and (max-width: 768px) {
+  .father-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 0;
+    gap: 19rem;
+
+}
+
+  .custom-container > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+  }
+
+  .comprar-ahora {
+    margin-top: 1.5rem;
+  }
+
+  .jabon-imagen{
+    display: none;
+  }
+
+}
+
+
+
+
+a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+
+body {
+    background-color: #e0ddd7;
+    font-family: 'Regular Playfair', serif;
+    font-size: 1.5rem;
+}
+
+
+.title-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    
+}
+
+.custom-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    font-size: 1.3rem;
+    /* margin: 0 15px; */
+    /* justify-content: space-between; */
+}
+
+.icons-header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin: 1rem 3rem;
+}
+
+.insta-icon{
+    height: 2rem;
+}
+.cart-shop{
+    height: 2rem;
+}
+
+
+
+.body-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.body-container > div {
+  display: flex;
+  padding-top: 0;
+}
+
+.text-content{
+    font-family: 'Playfair Display';
+    font-size: 5rem;
+    padding-top: 0;
+}
+
+.jabon-imagen{
+    max-width: 40vw;
+}
+
+.father-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+}
+
+.comprar-ahora{
+    background-color: #e0ddd7;
+    border: 2px solid #2a3419;
+    color: black;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 999px;
+    font-size: 2rem;
+    margin-left: -12rem;
+    /* padding: 3rem; */
+}
+
+.comprar-ahora:hover {
+  background-color: #2a3419;
+  color: white;
+}
+
+
+.custom-container > div {
+  display: flex;
+  gap: 30px;
+}
+
+
+.custom-buttom-buy{
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    padding-left: 0;
+    margin-top: -20rem;
+}
